@@ -1,0 +1,1 @@
+just my ghostty config
