@@ -1,4 +1,16 @@
+# https://ghostty.org/docs/config#zero-configuration-philosophy
+# ghostty 希望普通用户配置好了之后就直接用,所以我也是尽量减少配置
 # 主题,这里直接采用git submodule然后软链接过来了
+# https://ghostty.org/docs/config/reference#theme
+# https://github.com/catppuccin/ghostty
 theme = catppuccin-macchiato.conf
 # 字体
-config-file = ~/.config/ghostty/font
+# 采用Maple Mono,因为这个字体对中文支持较好
+# https://github.com/subframe7536/maple-font
+config-file = font
+# 背景
+# 嗯,你或许可以用background-image 功能插入一个二次元图像
+# ghostty也支持kitty的图形api,所以你懂的.
+# https://ghostty.org/docs/config/reference#background-image
+# kde 用户请参考 https://ghostty.org/docs/config/reference#background-image-opacity
+config-file = background
