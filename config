@@ -1,0 +1,4 @@
+# 主题,这里直接采用git submodule然后软链接过来了
+theme = catppuccin-macchiato.conf
+# 字体
+config-file = ~/.config/ghostty/font
