@@ -1,5 +1,8 @@
 # https://ghostty.org/docs/config#zero-configuration-philosophy
 # ghostty 希望普通用户配置好了之后就直接用,所以我也是尽量减少配置
+# 由于MacOS没有单独的alt键,所以在一些程序可能出现问题,所以需要在终端将option键配置为alt键
+# https://ghostty.org/docs/config/reference#macos-option-as-alt
+macos-option-as-alt=true
 # 主题,这里直接采用git submodule然后软链接过来了
 # https://ghostty.org/docs/config/reference#theme
 # https://github.com/catppuccin/ghostty
